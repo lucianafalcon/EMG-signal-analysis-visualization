@@ -1,4 +1,4 @@
-# EMG-signal-analysis-visualization
+# EMG ANALISIS DE LA SEÑAL Y VISUALIZACIÓN
 
 ---
 
@@ -30,9 +30,9 @@ patience_sex ------------------------ F / M
 
 emg_raw ------------------------ Señal EMG cruda medida por el ADC (0–4095)
 
-emg_rect |emg_raw - 2048| ------------------------ Señal EMG rectificada, tomando el valor absoluto con el offset 2048
+emg_rect  ------------------------ Señal EMG rectificada, tomando el valor absoluto con el offset 2048: |emg_raw - 2048|
 
-emg_voltage V=(ADC/4095)*3.3 ------------------------ Conversión de la señal EMG cruda a voltaje en V
+emg_voltage  ------------------------ Conversión de la señal EMG cruda a voltaje: V=(ADC/4095)*3.3
 
 contraction % ------------------------ Contracción relativa en porcentaje respecto al máximo de ese músculo y paciente
 
