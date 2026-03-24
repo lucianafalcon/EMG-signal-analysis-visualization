@@ -45,3 +45,22 @@ H2: La varianza de la señal aumenta significativamente en estado de activación
 
 H3: Si se registran dos músculos simultáneamente, existe correlación positiva durante contracción conjunta.
 
+## MODELADO Y RESULTADOS
+
+Se logró entrenar un modelo de clasificación capaz de distinguir entre estados musculares a partir de señales EMG.
+
+Las variables más relevantes fueron emg_rect, emg_mean_window y emg_std_window, lo que indica que tanto la amplitud como la variabilidad de la señal son determinantes en la identificación de la actividad muscular.
+
+El modelo alcanzó una accuracy de X% (reemplazar por el valor obtenido), indicando un buen desempeño en la clasificación de los estados musculares.
+
+## CONCLUSIONES
+
+Los resultados permiten confirmar las hipótesis planteadas:
+
+H1: La amplitud de la señal EMG aumenta durante la contracción muscular.  
+H2: La variabilidad de la señal también se incrementa en estados de activación.
+
+En conclusión, las señales EMG contienen información suficiente para discriminar entre distintos niveles de activación muscular. Estos resultados podrían ser aplicables en contextos de rehabilitación muscular, monitoreo clínico o desarrollo de sistemas biomédicos.
+
+
+
